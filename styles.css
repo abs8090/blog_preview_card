@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  /* margin: 20vh auto; */
+
+  width: 384px;
+  height: 522px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+}
+
+.blog-img {
+  margin: 20px 20px 0 20px;
+}
+
+.text-container {
+  margin: 24px;
+}
+.learning {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+}
+
+.date {
+  margin-top: 12px;
+}
+
+.foundation {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.foundation:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.para {
+  margin-top: 12px;
+  color: hsl(0, 0%, 42%);
+}
+
+.avatr-container {
+  margin: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar-img {
+  width: 32px;
+  height: 32px;
+}
